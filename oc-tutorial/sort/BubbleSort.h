@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Sort.h"
 
-@interface BubbleSort : NSObject
+@interface BubbleSort : NSObject <Sort>
 {
     NSMutableArray *mArray;
 }
 
 -(id)initWithArray:(NSArray *)array;
--(void)sort;
 
 @end

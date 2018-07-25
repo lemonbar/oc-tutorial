@@ -51,6 +51,7 @@
 		E41645DA2106F10B00BD9914 /* InsertionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
 		E41645DC2106F76400BD9914 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		E41645DD2106F76400BD9914 /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+		E43171322108515F007E3B66 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +126,7 @@
 				E41645DA2106F10B00BD9914 /* InsertionSort.m */,
 				E41645DC2106F76400BD9914 /* BubbleSort.h */,
 				E41645DD2106F76400BD9914 /* BubbleSort.m */,
+				E43171322108515F007E3B66 /* Sort.h */,
 			);
 			path = sort;
 			sourceTree = "<group>";

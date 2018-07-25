@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Sort.h"
 
-@interface SelectionSort : NSObject
+@interface SelectionSort : NSObject<Sort>
 {
     NSMutableArray *list;
 }
 
 -(id)initWithArray:(NSArray *)array;
--(void)sort;
 
 @end
