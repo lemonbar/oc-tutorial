@@ -10,6 +10,7 @@
 #import "SelectionSort.h"
 #import "InsertionSort.h"
 #import "BubbleSort.h"
+#import "ShellSort.h"
 
 @interface SortTests : XCTestCase
 {
@@ -22,13 +23,18 @@
 
 - (void)setUp {
     [super setUp];
-    array = @[@20,@5,@3,@13];
+    array = @[@20,@5,@3,@13,@17,@30,@4,@1,@2,@6,@7,@8,@9,@10];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
+}
+
+-(void)testShellSort {
+    ShellSort *shellSort = [[ShellSort alloc] initWithArray:array];
+    [shellSort sort];
 }
 
 -(void)testBubbleSort{

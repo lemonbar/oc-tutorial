@@ -18,6 +18,7 @@
 		E41645D82106CCC600BD9914 /* SortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E41645D72106CCC600BD9914 /* SortTests.m */; };
 		E41645DB2106F10B00BD9914 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E41645DA2106F10B00BD9914 /* InsertionSort.m */; };
 		E41645DE2106F76400BD9914 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E41645DD2106F76400BD9914 /* BubbleSort.m */; };
+		E4317136210AC2B2007E3B66 /* ShellSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E4317135210AC2B2007E3B66 /* ShellSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		E41645DC2106F76400BD9914 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
 		E41645DD2106F76400BD9914 /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
 		E43171322108515F007E3B66 /* Sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
+		E4317134210AC2B2007E3B66 /* ShellSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShellSort.h; sourceTree = "<group>"; };
+		E4317135210AC2B2007E3B66 /* ShellSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShellSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 		E41645AB2106C2F700BD9914 /* oc-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				E4317133210AAEE9007E3B66 /* callback */,
 				E41645D02106C4C000BD9914 /* sort */,
 				E41645AC2106C2F700BD9914 /* AppDelegate.h */,
 				E41645AD2106C2F700BD9914 /* AppDelegate.m */,
@@ -127,8 +131,17 @@
 				E41645DC2106F76400BD9914 /* BubbleSort.h */,
 				E41645DD2106F76400BD9914 /* BubbleSort.m */,
 				E43171322108515F007E3B66 /* Sort.h */,
+				E4317134210AC2B2007E3B66 /* ShellSort.h */,
+				E4317135210AC2B2007E3B66 /* ShellSort.m */,
 			);
 			path = sort;
+			sourceTree = "<group>";
+		};
+		E4317133210AAEE9007E3B66 /* callback */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = callback;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +249,7 @@
 				E41645B12106C2F700BD9914 /* ViewController.m in Sources */,
 				E41645BC2106C2F800BD9914 /* main.m in Sources */,
 				E41645AE2106C2F700BD9914 /* AppDelegate.m in Sources */,
+				E4317136210AC2B2007E3B66 /* ShellSort.m in Sources */,
 				E41645DE2106F76400BD9914 /* BubbleSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

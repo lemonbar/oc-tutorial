@@ -36,14 +36,17 @@
 -(void)sort{
     [self print];
     if(list != nil && list.count>0){
+        int exchangeTime = 0;
         for (int i=0; i<list.count; i++) {
             int j=i;
             while (j>0 && [list[j-1] compare:list[j]] == NSOrderedDescending) {
                 [list exchangeObjectAtIndex:j-1 withObjectAtIndex:j];
+                exchangeTime++;
                 j--;
             }
             [self print];
         }
+        NSLog(@"exchange %d times",exchangeTime);
     }
 }
 
