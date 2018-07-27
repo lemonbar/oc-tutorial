@@ -23,6 +23,7 @@
 		E431713B210B0AFE007E3B66 /* CallbackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E431713A210B0AFE007E3B66 /* CallbackTests.m */; };
 		E431713E210B0D3E007E3B66 /* CallbackHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E431713D210B0D3E007E3B66 /* CallbackHelper.m */; };
 		E4317141210B19A7007E3B66 /* CallbackNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E4317140210B19A7007E3B66 /* CallbackNotification.m */; };
+		E4317144210B21E4007E3B66 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E4317143210B21E4007E3B66 /* MergeSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		E431713D210B0D3E007E3B66 /* CallbackHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackHelper.m; sourceTree = "<group>"; };
 		E431713F210B19A7007E3B66 /* CallbackNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CallbackNotification.h; sourceTree = "<group>"; };
 		E4317140210B19A7007E3B66 /* CallbackNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackNotification.m; sourceTree = "<group>"; };
+		E4317142210B21E4007E3B66 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		E4317143210B21E4007E3B66 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 				E43171322108515F007E3B66 /* Sort.h */,
 				E4317134210AC2B2007E3B66 /* ShellSort.h */,
 				E4317135210AC2B2007E3B66 /* ShellSort.m */,
+				E4317142210B21E4007E3B66 /* MergeSort.h */,
+				E4317143210B21E4007E3B66 /* MergeSort.m */,
 			);
 			path = sort;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			files = (
 				E431713E210B0D3E007E3B66 /* CallbackHelper.m in Sources */,
 				E4317139210B0996007E3B66 /* CallbackTarget.m in Sources */,
+				E4317144210B21E4007E3B66 /* MergeSort.m in Sources */,
 				E41645D62106CAB800BD9914 /* SelectionSort.m in Sources */,
 				E41645DB2106F10B00BD9914 /* InsertionSort.m in Sources */,
 				E41645B12106C2F700BD9914 /* ViewController.m in Sources */,
