@@ -12,6 +12,7 @@
 #import "BubbleSort.h"
 #import "ShellSort.h"
 #import "MergeSort.h"
+#import "QuickSort.h"
 
 @interface SortTests : XCTestCase
 {
@@ -56,6 +57,11 @@
 -(void)testMergeSort {
     MergeSort *mSort = [[MergeSort alloc] initWithArray:array];
     [mSort sort];
+}
+
+-(void)testQuickSort {
+    QuickSort *qSort = [[QuickSort alloc] initWithArray:array];
+    [qSort sort];
 }
 
 - (void)testExample {

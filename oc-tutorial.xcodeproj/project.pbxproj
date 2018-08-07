@@ -24,6 +24,7 @@
 		E431713E210B0D3E007E3B66 /* CallbackHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E431713D210B0D3E007E3B66 /* CallbackHelper.m */; };
 		E4317141210B19A7007E3B66 /* CallbackNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E4317140210B19A7007E3B66 /* CallbackNotification.m */; };
 		E4317144210B21E4007E3B66 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E4317143210B21E4007E3B66 /* MergeSort.m */; };
+		E431714721198D2B007E3B66 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E431714621198D2B007E3B66 /* QuickSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,8 @@
 		E4317140210B19A7007E3B66 /* CallbackNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallbackNotification.m; sourceTree = "<group>"; };
 		E4317142210B21E4007E3B66 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		E4317143210B21E4007E3B66 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
+		E431714521198D2B007E3B66 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		E431714621198D2B007E3B66 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +153,8 @@
 				E4317135210AC2B2007E3B66 /* ShellSort.m */,
 				E4317142210B21E4007E3B66 /* MergeSort.h */,
 				E4317143210B21E4007E3B66 /* MergeSort.m */,
+				E431714521198D2B007E3B66 /* QuickSort.h */,
+				E431714621198D2B007E3B66 /* QuickSort.m */,
 			);
 			path = sort;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				E41645DB2106F10B00BD9914 /* InsertionSort.m in Sources */,
 				E41645B12106C2F700BD9914 /* ViewController.m in Sources */,
 				E4317141210B19A7007E3B66 /* CallbackNotification.m in Sources */,
+				E431714721198D2B007E3B66 /* QuickSort.m in Sources */,
 				E41645BC2106C2F800BD9914 /* main.m in Sources */,
 				E41645AE2106C2F700BD9914 /* AppDelegate.m in Sources */,
 				E4317136210AC2B2007E3B66 /* ShellSort.m in Sources */,
