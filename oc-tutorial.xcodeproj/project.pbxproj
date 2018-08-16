@@ -25,6 +25,9 @@
 		E4317141210B19A7007E3B66 /* CallbackNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = E4317140210B19A7007E3B66 /* CallbackNotification.m */; };
 		E4317144210B21E4007E3B66 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E4317143210B21E4007E3B66 /* MergeSort.m */; };
 		E431714721198D2B007E3B66 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = E431714621198D2B007E3B66 /* QuickSort.m */; };
+		E440A85921256BC400488AD3 /* BST.m in Sources */ = {isa = PBXBuildFile; fileRef = E440A85821256BC400488AD3 /* BST.m */; };
+		E440A85C21256EBB00488AD3 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = E440A85B21256EBB00488AD3 /* Node.m */; };
+		E440A85E21257FEC00488AD3 /* SearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E440A85D21257FEC00488AD3 /* SearchTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,11 @@
 		E4317143210B21E4007E3B66 /* MergeSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		E431714521198D2B007E3B66 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
 		E431714621198D2B007E3B66 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		E440A85721256BC400488AD3 /* BST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
+		E440A85821256BC400488AD3 /* BST.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BST.m; sourceTree = "<group>"; };
+		E440A85A21256EBA00488AD3 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		E440A85B21256EBB00488AD3 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		E440A85D21257FEC00488AD3 /* SearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 		E41645AB2106C2F700BD9914 /* oc-tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				E440A85621256B6E00488AD3 /* search */,
 				E4317133210AAEE9007E3B66 /* callback */,
 				E41645D02106C4C000BD9914 /* sort */,
 				E41645AC2106C2F700BD9914 /* AppDelegate.h */,
@@ -135,6 +144,7 @@
 				E41645C72106C2F800BD9914 /* Info.plist */,
 				E41645D72106CCC600BD9914 /* SortTests.m */,
 				E431713A210B0AFE007E3B66 /* CallbackTests.m */,
+				E440A85D21257FEC00488AD3 /* SearchTests.m */,
 			);
 			path = "oc-tutorialTests";
 			sourceTree = "<group>";
@@ -170,6 +180,17 @@
 				E4317140210B19A7007E3B66 /* CallbackNotification.m */,
 			);
 			path = callback;
+			sourceTree = "<group>";
+		};
+		E440A85621256B6E00488AD3 /* search */ = {
+			isa = PBXGroup;
+			children = (
+				E440A85721256BC400488AD3 /* BST.h */,
+				E440A85821256BC400488AD3 /* BST.m */,
+				E440A85A21256EBA00488AD3 /* Node.h */,
+				E440A85B21256EBB00488AD3 /* Node.m */,
+			);
+			path = search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +302,10 @@
 				E4317141210B19A7007E3B66 /* CallbackNotification.m in Sources */,
 				E431714721198D2B007E3B66 /* QuickSort.m in Sources */,
 				E41645BC2106C2F800BD9914 /* main.m in Sources */,
+				E440A85C21256EBB00488AD3 /* Node.m in Sources */,
 				E41645AE2106C2F700BD9914 /* AppDelegate.m in Sources */,
 				E4317136210AC2B2007E3B66 /* ShellSort.m in Sources */,
+				E440A85921256BC400488AD3 /* BST.m in Sources */,
 				E41645DE2106F76400BD9914 /* BubbleSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41645C62106C2F800BD9914 /* oc_tutorialTests.m in Sources */,
+				E440A85E21257FEC00488AD3 /* SearchTests.m in Sources */,
 				E41645D82106CCC600BD9914 /* SortTests.m in Sources */,
 				E431713B210B0AFE007E3B66 /* CallbackTests.m in Sources */,
 			);
